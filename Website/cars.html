@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamondcut Motors</title>
+    <link rel="stylesheet" href="index.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <a href="/" class="logo"><img src="images/logo.png" alt="logo"></a>
+        <div class="menu-toggle" class="active">
+            <img src="images/menus.png" alt="menu icon">
+        </div>
+        <nav>
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cars.html" class="active">Cars</a></li>
+                <li><a href="showroom.html">Showroom</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+                <li><a href="signin.html" class="sign-in" id="header-login">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="tabs">
+        <button class="tab-link active" onclick="filterCars('all')">Show All</button>
+        <button class="tab-link" onclick="filterCars('new')">New Car</button>
+        <button class="tab-link" onclick="filterCars('used')">Used Car</button>
+        <input type="text" id="searchInput" onkeyup="searchCars()" placeholder="Search for cars..">
+    </div>
+    <div class="car-gallery" id="carGallery">
+        <!-- Car Cards -->
+        <div class="car-card" data-category="used" data-name="Audi R8">
+            <img src="images/car used/audir8-removebg-preview.png" alt="Audi R8">
+            <h3>Audi R8</h3>
+        </div>
+        <div class="car-card" data-category="used" data-name="Mercedes CLA200">
+            <div class="image4">
+                <img src="images/car used/cla_200_mercedes-removebg-preview.png" alt="Mercedes CLA200">
+            </div>
+            <h3>Mercedes CLA200</h3>
+        </div>
+        <div class="car-card" data-category="used" data-name="Bentley Bentayga">
+            <div class="image5">
+                <img src="images/car used/mansory-bentley-bentayga-facelift-removebg-preview.png" alt="Bentley Bentayga">
+            </div>
+            <h3>Bentley Bentayga</h3>
+        </div>
+        <div class="car-card" data-category="new" data-name="Lamborgini Aventador">
+            <div class="image6">
+                <img src="images/car new/lamborghini-aventador-lp-750-4-superveloce-roadster-2016.png" alt="Lamborgini Aventador">
+            </div>
+            <h3>Lamborgini Aventador</h3>
+        </div>
+        <div class="car-card" data-category="new" data-name="Lamborgini Urus">
+            <div class="image7">
+                <img src="images/car new/lambourus.png" alt="Lamborgini Urus">
+            </div>
+            <h3>Lamborgini Urus</h3>
+        </div>
+        <div class="car-card" data-category="new" data-name="Mclaren GTS">
+            <div class="image8">
+                <img src="images/car new/mclarengts.png" alt="Mclaren GTS">
+            </div>
+            <h3>Mclaren GTS</h3>
+        </div>
+        <div class="car-card" data-category="new" data-name="Nissan GTR R35">
+            <div class="image9">
+                <img src="images/car new/nissangtr35.png" alt="Nissan GTR R35">
+            </div>
+            <h3>Nissan GTR R35</h3>
+        </div>
+        <div class="car-card" data-category="used" data-name="Porsche 911">
+            <div class="image10">
+                <img src="images/car used/porsche911.png" alt="Porsche 911">
+            </div>
+            <h3>Porsche 911</h3>
+        </div>
+        <div class="car-card" data-category="used" data-name="Supra MK7">
+            <div class="image11">
+                <img src="images/car used/supramk7.png" alt="Supra MK7">
+            </div>
+            <h3>Supra MK7</h3>
+        </div>
+        <div class="car-card" data-category="used" data-name="Tesla CyberTruk">
+            <div class="image12">
+                <img src="images/car used/Tesla-Cyber-truckcar-removebg-preview.png" alt="Tesla CyberTruk">
+            </div>
+            <h3>Tesla CyberTruk</h3>
+        </div>
+        <div class="car-card" data-category="used" data-name="BMW Z4">
+            <div class="image13">
+                <img src="images/car used/BMW-Z4-LCI-E89-removebg-preview.png" alt="BMW Z4">
+            </div>
+            <h3>BMW Z4</h3>
+        </div>
+        <div class="car-card" data-category="used" data-name="Buggati Centodieci">
+            <div class="image13">
+                <img src="images/car used/bugatti centodieci no bg.png" alt="Buggati Centodieci">
+            </div>
+            <h3>Buggati Centodieci</h3>
+        </div>
+        <div class="car-card" data-category="used" data-name="Lamborghini Veneno">
+            <div class="image13">
+                <img src="images/car used/Lamborghini-Veneno-1-no bg.png" alt="Lamborghini Veneno">
+            </div>
+            <h3>Lamborghini Veneno</h3>
+        </div>
+    </div>
+    <hr class="full-width-divider">
+    <footer>
+        <p>Copyright © 2024. Diamondcut Motors. All rights reserved</p>
+        <div class="footer-links">
+            <a href="#">Legal</a>
+            <a href="#">Privacy</a>
+            <a href="#">Cookie</a>
+        </div>
+    </footer>
+    <script src="index.js" defer></script>
+</body>
+</html>

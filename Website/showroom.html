@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamondcut Motors</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <a href="/" class="logo"><img src="images/logo.png" alt="logo"></a>
+        <div class="menu-toggle">
+            <img src="images/menus.png" alt="menu icon">
+        </div>
+        <nav>
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cars.html">Cars</a></li>
+                <li><a href="showroom.html" class="active">Showroom</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+                <li><a href="signin.html" class="sign-in" id="header-login">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Showroom Video -->
+    <div class="showroom-video">
+        <video autoplay muted loop>
+            <source src="assets/showroomvideo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="video-text">VISIT OUR</div>
+        <div class="video-text2">SHOWROOM</div>
+    </div>
+    <!-- Slider -->
+    <section class="showroom-section">
+        <h2>GALLERY</h2>
+        <div class="showroom-gallery">
+            <div class="showroom-image" id="showroom1" style="background-image: url('images/showroom/showroom1.jpeg');"></div>
+            <div class="showroom-image" id="showroom2" style="background-image: url('images/showroom/showroom2.jpg');"></div>
+            <div class="showroom-image" id="showroom3" style="background-image: url('images/showroom/showroom3.jpg');"></div>
+            <div class="showroom-image" id="showroom4" style="background-image: url('images/showroom/showroom4.avif');"></div>
+            <div class="showroom-image" id="showroom5" style="background-image: url('images/showroom/showroom5.jpg');"></div>
+            <div class="showroom-image" id="showroom6" style="background-image: url('images/showroom/showroom6.jpg');"></div>
+            <div class="showroom-image" id="showroom7" style="background-image: url('images/showroom/showroom7.jpg');"></div>
+            <div class="showroom-image" id="customerservice1" style="background-image: url('images/showroom/cs1.png');"></div>
+            <div class="showroom-image" id="customerservice2" style="background-image: url('images/showroom/cs2.jpg')"></div>
+            <div class="showroom-image" id="customerservice3" style="background-image: url('images/showroom/cs3.jpg')"></div>
+        </div>
+
+        <!-- Container for the navigation arrows -->
+        <div class="arrow-container">
+            <img src="images/left-arrow (1).png" alt="Left Arrow" class="arrow left-arrow">
+            <img src="images/right-arrow.png" alt="Right Arrow" class="arrow right-arrow">
+        </div>
+    </section>
+    <!-- Gallery -->
+    <div class="gallery">
+        <div class="gallery-item"><img src="images/showroom/showroom1.jpeg" alt="Gallery Image 1"></div>
+        <div class="gallery-item"><img src="images/showroom/showroom2.jpg" alt="Gallery Image 2"></div>
+        <div class="gallery-item"><img src="images/showroom/showroom3.jpg" alt="Gallery Image 3"></div>
+        <div class="gallery-item"><img src="images/showroom/showroom4.avif" alt="Gallery Image 4"></div>
+        <div class="gallery-item"><img src="images/showroom/showroom5.jpg" alt="Gallery Image 5"></div>
+        <div class="gallery-item"><img src="images/showroom/showroom6.jpg" alt="Gallery Image 6"></div>
+        <div class="gallery-item"><img src="images/showroom/showroom7.jpg" alt="Gallery Image 7"></div>
+        <div class="gallery-item"><img src="images/showroom/showroom8.jpeg" alt="Gallery Image 8"></div>
+        <div class="gallery-item"><img src="images/showroom/showroom9.jpeg" alt="Gallery Image 9"></div>
+        <div class="gallery-item"><img src="images/showroom/showroom10.avif" alt="Gallery Image 10"></div>
+        <div class="gallery-item"><img src="images/showroom/showroom11.jpg" alt="Gallery Image 11"></div>
+        <div class="gallery-item"><img src="images/showroom/showroom12.jpeg" alt="Gallery Image 12"></div>
+        <div class="gallery-item"><img src="images/showroom/showroom13.jpg" alt="Gallery Image 13"></div>
+        <div class="gallery-item"><img src="images/showroom/showroom14.jpeg" alt="Gallery Image 14"></div>
+        <div class="gallery-item"><img src="images/showroom/showroom15.jpeg" alt="Gallery Image 15"></div>
+        <div class="gallery-item"><img src="images/showroom/showroom16.avif" alt="Gallery Image 16"></div>
+    </div>
+    <!-- Employee -->
+    <div class="container">
+        <h1>OUR EMPLOYEE</h1>
+        <input type="radio" name="dot" id="one">
+        <input type="radio" name="dot" id="two">
+        <div class="main-card">
+            <div class="cards">
+                <div class="card">
+                    <div class="content">
+                        <div class="img">
+                            <img src="images/Employee/employee1.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <div class="name">Aisyah Putri</div>
+                            <div class="job">Employee</div>
+                        </div>
+                        <div class="media-icons">
+                            <a href="https://www.instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
+                            <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
+                            <a href="https://www.x.com"><img src="images/twitter (1).png" alt="Instagram"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="img">
+                            <img src="images/Employee/employee2.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <div class="name">Bobby Saputra</div>
+                            <div class="job">Employee</div>
+                        </div>
+                        <div class="media-icons">
+                            <a href="https://www.instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
+                            <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
+                            <a href="https://www.x.com"><img src="images/twitter (1).png" alt="Instagram"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="img">
+                            <img src="images/Employee/employee3.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <div class="name">Dono Kasimo</div>
+                            <div class="job">Employee</div>
+                        </div>
+                        <div class="media-icons">
+                            <a href="https://www.instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
+                            <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
+                            <a href="https://www.x.com"><img src="images/twitter (1).png" alt="Instagram"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="content">
+                        <div class="img">
+                            <img src="images/Employee/employee4.jpeg" alt="">
+                        </div>
+                        <div class="details">
+                            <div class="name">Angga Yunanda</div>
+                            <div class="job">Employee</div>
+                        </div>
+                        <div class="media-icons">
+                            <a href="https://www.instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
+                            <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
+                            <a href="https://www.x.com"><img src="images/twitter (1).png" alt="Instagram"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="img">
+                            <img src="images/Employee/employee5.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <div class="name">Abraham Putra</div>
+                            <div class="job">Employee</div>
+                        </div>
+                        <div class="media-icons">
+                            <a href="https://www.instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
+                            <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
+                            <a href="https://www.x.com"><img src="images/twitter (1).png" alt="Instagram"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="img">
+                            <img src="images/Employee/employee6.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <div class="name">Grace Rekista</div>
+                            <div class="job">Employee</div>
+                        </div>
+                        <div class="media-icons">
+                            <a href="https://www.instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
+                            <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
+                            <a href="https://www.x.com"><img src="images/twitter (1).png" alt="Instagram"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="button">
+            <label for="one" class="one active"></label>
+            <label for="two" class="two"></label>
+        </div>
+    </div>
+    <div class="cekking">
+        <h1>WHEN YOU WANT TO VISIT?</h1>
+        <form id="visitForm">
+            <input type="date" id="visitDate" required>
+            <button type="submit">SEND</button>
+        </form>
+    </div>
+    <!-- maps -->
+    <div class="container12">
+        <div class="containermaps">
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15819.931702650709!2d110.8177088!3d-7.5768368!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a167aef241b1f%3A0xba1b2a453846ce02!2sAnugrah%20Motor!5e0!3m2!1sid!2sid!4v1717870216933!5m2!1sid!2sid" 
+                    width="600" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+            <hr class="separator">
+            <div class="info">
+                <h1>DIAMONDCUT MOTORS</h1>
+                <p>Jl. Moh. Yamin, Kratonan, Kec. Serengan, Kota Surakarta, Jawa Tengah 57153</p>
+                <p>Tel: (+62-27) 1644037</p>
+                <p>Fax: (+62-27) 1644037</p>
+                <p>Hotline Service:</p>
+                <div class="hotline">
+                    <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp"/>
+                    <a href="tel:+6287788746888">(+62) 877-8874-6888</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="full-width-divider">
+    <footer>
+        <p>Copyright © 2024. Diamondcut Motors. All rights reserved</p>
+        <div class="footer-links">
+            <a href="#">Legal</a>
+            <a href="#">Privacy</a>
+            <a href="#">Cookie</a>
+        </div>
+    </footer>
+</body>
+</html>
