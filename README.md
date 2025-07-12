@@ -5,7 +5,28 @@ Welcome to **Diamondcut Motors**, a sleek and responsive car showroom website de
 This project was developed using **HTML**, **CSS**, and **JavaScript**, with a user-friendly interface inspired by modern car dealership platforms.
 
 ## 🌐 Preview
+### Login Page
+![Login Page](Resources/pic1.png)
 
+### Home Page
+![Home Page Splash Screen](Resources/pic2.png)
+
+![Home Page Testimoni](Resources/pic3.png)
+
+![Home Page News](Resources/pic4.png)
+
+![Home Page Merch](Resources/pic5.png)
+
+### Car Page
+![Car Page Variant](Resources/pic6.png)
+
+### Showroom Page
+![Visit Our Showroom](Resources/pic7.png)
+
+![Our Employee](Resources/pic8.png)
+
+### About Us
+![About Us Page](Resources/pic9.png)
 
 ---
 
